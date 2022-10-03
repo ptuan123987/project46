@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+/* layout */
+
+.help {
+    width: 990px;
+    margin: 30px auto;
+}
+
+.help h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.help .info {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: rgb(136, 131, 141);
+}
+
+.help .help-form {
+    background-color: rgb(242, 243, 245);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    border: 1px solid #fff;
+    margin: 16px;
+    padding: 0px 16px;
+    color: rgb(136, 131, 141);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    height: 55px;
+}
+
+textarea {
+    width: 955px;
+}
+
+button {
+    background-color: #2d3032;
+    border: 1px solid #2d3032;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px 0 16px;
+    text-align: center;
+    transition: 0.3s background-color;
+    margin-bottom: 25px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.full-size {
+    width: 990px;
+}
+
+.half-size {
+    width: 460px;
+}

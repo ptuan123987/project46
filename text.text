@@ -1,0 +1,49 @@
+span: đánh dấu mà không ảnh hưởng đến ý nghĩa
+sub : chữ nhỏ phía trên
+sup : chữ nhỏ phía dưới
+blockquote : 
+        - trích dẫn
+        - no copy 
+form : tập hợp của các thẻ
+form để đăng kí người dùng
+    input: text 
+    input: password
+    input : checkbox : được chọn nhiều cái
+    input : radio : only select
+    label : cho 1 input
+    input [type="submit"] : gửi dữ liệu đi
+
+br : break ít khi dùng cái này(không nên dùng)
+hr : có dòng kẻ ngang
+Inline và Block 
+các thẻ block => không nằm trong thẻ inline và Block
+
+chọn các thành phần đầu tiên :
+    - first-child:
+    - last-child:
+    - nth-child():
+    - nth-child(odd):
+    - nth-child(even):
+    - nth-last-child():
+    - nth-of-type():
+    - last-of-type():
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
