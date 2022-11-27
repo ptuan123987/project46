@@ -45,5 +45,13 @@ Key pair : SSH key
     đẻ nhánh : 
 
 
+    git flow :
+    dev branch : là 1 nhánh cho cả team
+                - chạy theo suốt dự án 
+
+    Làm 1 tính năng mới : 
+        code trang tài khoản : checkout ra 1 nhánh mới
+        - git checkout -b 
+
     
 
